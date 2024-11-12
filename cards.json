@@ -2,7 +2,7 @@
     "cards": [
         {
             "id": 1,
-            "image": "./img/calzadoHombre/court_vision_mid_next_nature.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/court_vision_mid_next_nature.webp",
             "title": "Nike Court Vision Mid Next Nature",
             "price": "94.990",
             "gender": "Hombre",
@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "image": "./img/calzadoHombre/metallic_gold.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/metallic_gold.webp",
             "title": "Nike Jordan 1 Retro Metallic Gold",
             "price": "192.990",
             "gender": "Hombre",
@@ -18,7 +18,7 @@
         },
         {
             "id": 3,
-            "image": "./img/calzadoHombre/oxidized_green.jfif",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/oxidized_green.jfif",
             "title": "Nike Air Jordan 4 Retro Oxidized Green",
             "price": "222.990",
             "gender": "Hombre",
@@ -26,7 +26,7 @@
         },
         {
             "id": 4,
-            "image": "./img/calzadoHombre/air_jordan_1_mid.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/air_jordan_1_mid.webp",
             "title": "AIR JORDAN 1 MID",
             "price": "134.990",
             "gender": "Hombre",
@@ -34,7 +34,7 @@
         },
         {
             "id": 5,
-            "image": "./img/calzadoHombre/air_more_uptempo_96.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/air_more_uptempo_96.webp",
             "title": "AIR MORE UPTEMPO '96",
             "price": "189.990",
             "gender": "Hombre",
@@ -42,7 +42,7 @@
         },
         {
             "id": 6,
-            "image": "./img/calzadoHombre/air_force_107.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/air_force_107.webp",
             "title": "Nike Air Force 1 '07",
             "price": "119.990",
             "gender": "Hombre",
@@ -50,7 +50,7 @@
         },
         {
             "id": 7,
-            "image": "./img/calzadoHombre/air_jordan_1_low.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/air_jordan_1_low.webp",
             "title": "Nike Air Max 90 Futura",
             "price": "122.990",
             "gender": "Hombre",
@@ -58,7 +58,7 @@
         },
         {
             "id": 8,
-            "image": "./img/calzadoHombre/air_force_lv.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/air_force_lv.webp",
             "title": "Nike Air Force 1 '07 LV8",
             "price": "129.990",
             "gender": "Hombre",
@@ -66,7 +66,7 @@
         },
         {
             "id": 9,
-            "image": "./img/calzadoHombre/air_force_1_lowevo.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/air_force_1_lowevo.webp",
             "title": "AIR FORCE 1 LOW EVO",
             "price": "149.990",
             "gender": "Hombre",
@@ -74,7 +74,7 @@
         },
         {
             "id": 10,
-            "image": "./img/calzadoHombre/dunk_retro_low.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoHombre/dunk_retro_low.webp",
             "title": "NIKE DUNK LOW RETRO",
             "price": "119.990",
             "gender": "Hombre",
@@ -82,7 +82,7 @@
         },
         {
             "id": 11,
-            "image": "./img/calzadoMujer/tech_hera.jfif",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/tech_hera.jfif",
             "title": "Nike Tech Hera",
             "price": "79.990",
             "gender": "Mujer",
@@ -90,7 +90,7 @@
         },
         {
             "id": 12,
-            "image": "./img/calzadoMujer/sky_brown.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/sky_brown.webp",
             "title": "Nike Tech Hera",
             "price": "69.990",
             "gender": "Mujer",
@@ -98,7 +98,7 @@
         },
         {
             "id": 13,
-            "image": "./img/calzadoMujer/blazer_mid_77.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/blazer_mid_77.webp",
             "title": "Nike Blazer Mid '77",
             "price": "116.990",
             "gender": "Mujer",
@@ -106,7 +106,7 @@
         },
         {
             "id": 14,
-            "image": "./img/calzadoMujer/grand_court_platforma.avif",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/grand_court_platforma.avif",
             "title": "Adidas Grand Court Platforma",
             "price": "59.990",
             "gender": "Mujer",
@@ -114,7 +114,7 @@
         },
         {
             "id": 15,
-            "image": "./img/calzadoMujer/vl_court_bold.avif",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/vl_court_bold.avif",
             "title": "Adidas GVL Court Bold",
             "price": "69.990",
             "gender": "Mujer",
@@ -122,7 +122,7 @@
         },
         {
             "id": 16,
-            "image": "./img/calzadoMujer/court_funk.avif",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/court_funk.avif",
             "title": "Adidas Court Funk",
             "price": "89.990",
             "gender": "Mujer",
@@ -130,7 +130,7 @@
         },
         {
             "id": 17,
-            "image": "./img/calzadoMujer/gazelle_bold.avif",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/gazelle_bold.avif",
             "title": "Adidas Gazelle Bold",
             "price": "89.990",
             "gender": "Mujer",
@@ -138,7 +138,7 @@
         },
         {
             "id": 18,
-            "image": "./img/calzadoMujer/ozgaia.avif",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/ozgaia.avif",
             "title": "Adidas OZGAIA",
             "price": "89.990",
             "gender": "Mujer",
@@ -146,7 +146,7 @@
         },
         {
             "id": 19,
-            "image": "./img/calzadoMujer/hoops_3_bold.avif",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/hoops_3_bold.avif",
             "title": "Adidas Hoops 3.0 Bold",
             "price": "59.990",
             "gender": "Mujer",
@@ -154,7 +154,7 @@
         },
         {
             "id": 20,
-            "image": "./img/calzadoMujer/initiator.webp",
+            "image": "https://fakawath.github.io/UltimateShoes_201468_1/img/calzadoMujer/initiator.webp",
             "title": "Nike Initiator",
             "price": "94.990",
             "gender": "Mujer",
