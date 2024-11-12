@@ -46,7 +46,6 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            height: 700px;
             min-height: 300px;
             object-fit: cover;
             background-color: #dddddd;
@@ -78,13 +77,17 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
+
+        #productForm {
+            margin-right: 1rem;
+        }
     </style>
 </head>
 
 <body>
     <main>
         <div class="container">
-            <form method="get" id="productForm">
+            <form id="productForm">
                 <h3>Agregar Nuevo Producto</h3>
                 <label for="title">Nombre del Producto:</label>
                 <input type="text" id="title" required>
@@ -130,7 +133,7 @@
             };
 
             const cardHTML = `
-                <div class="card">
+                <div class="card h-100">
                     <img src="${newProduct.image}" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">${newProduct.title}</h5>
