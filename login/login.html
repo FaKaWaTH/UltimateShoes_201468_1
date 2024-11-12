@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador Ultimate Shoes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #785389;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            position: relative;
+            width: 300px;
+            padding: 40px;
+            background-color: #ffdb5a;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .file-tab {
+            position: absolute;
+            top: -20px;
+            left: -0.5px;
+            padding: 5px 20px;
+            background-color: #ffb700;
+            font-weight: bold;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+
+        .file-tab::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -25px;
+            width: 0;
+            height: 0;
+            border-bottom: 28px solid #ffb700;
+            border-right: 28px solid transparent;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #785389;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: #bc80d8;
+        }
+    </style>
+    <script>
+        const validacion = () => {
+            login = document.getElementById("login")
+
+            user = document.getElementById("username").value
+            pass = document.getElementById("password").value
+
+            if (user == "ultimate" && pass == "shoe") {
+                login.setAttribute('ACTION', 'https://fakawath.github.io/UltimateShoes_201468_1/login/administrador.html')
+            } else {
+                alert("Usuario o contraseña erronea, vuelva a intentarlo.")
+            }
+        }   
+    </script>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="file-tab">Ultimate Shoes</div>
+        <h2>Login</h2>
+        <form method="post" id="login">
+            <div class="form-group">
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button class="login-button" onclick="validacion()">Acceder</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

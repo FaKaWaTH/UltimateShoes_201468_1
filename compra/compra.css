@@ -1,0 +1,121 @@
+* {
+    font-family: Verdana;
+
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #edece7;
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    box-shadow: #462664;
+    background: linear-gradient(180deg, #ffffff, #e0ded0);
+
+}
+
+.footeer {
+    background: linear-gradient(180deg, #e0ded0, #ffffff);
+    position: relative;
+    margin-top: auto;
+}
+
+#infoCompra {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: fit-content;
+}
+
+#shoe-img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+#shoe-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#shoe-size {
+    color: #555;
+    font-size: 1rem;
+    margin: 0;
+}
+
+#shoe-price {
+    font-size: 1.25rem;
+    color: #333;
+    margin-left: auto;
+}
+
+form {
+    background-color: beige;
+    padding: 4px 8px;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+#selecciontRegion {
+    margin-bottom: 1rem;
+}
+
+.webpay {
+    width: 120px;
+    height: auto;
+    max-width: 100%;
+}
+
+#inputSubmit {
+    padding: 4px 8px;
+    font-size: 1rem;
+}
+
+.aText {
+    color: black;
+}
+
+@media (max-width: 425px) {
+    #infoCompra {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    #shoe-img {
+        max-width: 80px;
+        max-height: 80px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #shoe-title {
+        font-size: 1.2rem;
+    }
+
+    #shoe-price {
+        font-size: 1rem;
+        margin-left: 0;
+        align-self: flex-end;
+    }
+}
+
+#dropdownMenuButton {
+    padding: 10px 270px;
+    background-color: rgb(216, 216, 216);
+    border-color: rgb(216, 216, 216);
+    color: black;
+}

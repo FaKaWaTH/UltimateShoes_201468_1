@@ -1,0 +1,198 @@
+* {
+    font-family: Verdana;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #edece7;
+    min-height: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.navbar {
+    box-shadow: #462664;
+    background: linear-gradient(180deg, #ffffff, #e0ded0);
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#shoe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#shoe .col {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#shoe-img {
+    width: 400px;
+    height: 400px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    aspect-ratio: 1;
+    box-shadow: 16px 18px rgba(0, 0, 0, 0.2);
+}
+
+.footeer {
+    background: linear-gradient(180deg, #e0ded0, #ffffff);
+    position: relative;
+    margin-top: auto;
+}
+
+.row {
+    margin: 0;
+}
+
+.col {
+    text-align: center;
+}
+
+#buy {
+    color: #ffffff;
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 4px 8px;
+    background-color: #8956b9;
+}
+
+#num {
+    margin: 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.num-button.selected {
+    background-color: #83827c;
+    color: white;
+}
+
+.aText {
+    color: black;
+}
+
+#size {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a3a2a2;
+    border-radius: 5px;
+}
+
+.num-button {
+    background-color: #f0f0f0;
+    border: 1px solid #a3a2a2;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 1 0 20%;
+    max-width: 60px;
+    text-align: center;
+}
+
+.num-button:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+}
+
+.num-button.selected {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+@media (max-width: 991px) {
+    #shoe {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #shoe-img {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #shoe-details {
+        text-align: center;
+    }
+
+    #shoe-details h2 {
+        margin-bottom: 15px;
+    }
+
+    #size {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    #price {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    #buy {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #size {
+        width: 180px;
+        height: 180px;
+    }
+
+    .num-button {
+        max-width: 50px;
+    }
+}
+
+.tallas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
