@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('shoe-img').innerHTML = `<img src="${shoe.image}" class="img-fluid">`;
                 document.getElementById('shoe-details').innerHTML = `
                 <h2>${shoe.title}</h2>
-                <p id="price">${shoe.price}</p>
+                <p id="price">$${shoe.price}</p>
                 <form id="shoeForm" action="/compra/compra.html">
                     <div class="container-fluid tallas">
                         <input type="button" value="34" class="num-button">
