@@ -33,7 +33,7 @@ const updateCards = (cards) => {
             <img src="${card.image}" class="card-img-top img-fluid">
             <div class="card-body">
               <h5 class="card-title">${card.title}</h5>
-              <p class="card-text">${card.price}</p>
+              <p class="card-text">$${card.price}</p>
             </div>
         </a>
       </div>`;
