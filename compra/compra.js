@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('shoe-img').alt = shoe.title;
                 document.getElementById('shoe-title').textContent = shoe.title;
                 document.getElementById('shoe-size').textContent = `Talla seleccionada: ${selectedSize}`;
-                document.getElementById('shoe-price').textContent = `Precio: ${shoe.price}`;
+                document.getElementById('shoe-price').textContent = `Precio: $${shoe.price}`;
             } else {
                 document.getElementById('infoCompra').innerHTML = '<p>Zapato no encontrado.</p>';
             }
