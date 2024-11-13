@@ -55,6 +55,11 @@ h2 {
     height: 400px;
 }
 
+#price{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 .img-fluid {
     max-width: 100%;
     width: 400px;
