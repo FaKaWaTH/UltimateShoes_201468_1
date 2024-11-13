@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('shoe-details').innerHTML = `
                 <h2>${shoe.title}</h2>
                 <p id="price">$${shoe.price}</p>
+                <h4>Seleccione su talla</h4>
                 <form id="shoeForm" action="/compra/compra.html">
                     <div class="container-fluid tallas">
                         <input type="button" value="34" class="num-button">
