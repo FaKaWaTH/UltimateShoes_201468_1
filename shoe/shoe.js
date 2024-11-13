@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const shoeId = urlParams.get('id');
+    let selectedSize = null;
 
     fetch('https://fakawath.github.io/UltimateShoes_201468_1/cards.json')
         .then(response => response.json())
@@ -38,13 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         sizeButtons.forEach(btn => btn.classList.remove('selected'));
                         button.classList.add('selected');
                         selectedSize = button.value;
-                        document.getElementById('buy').disabled = false;
                     });
                 });
 
                 document.getElementById('shoeForm').addEventListener('submit', (event) => {
                     event.preventDefault();
-                    if (selectedSize) {
+                    if (!selectedSize) {
+                        alert('Por favor, seleccione una talla antes de continuar con la compra.');
+                    } else {
                         window.location.href = `https://fakawath.github.io/UltimateShoes_201468_1/compra/compra.html?id=${shoeId}&size=${selectedSize}`;
                     }
                 });
